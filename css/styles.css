@@ -6,8 +6,8 @@
 	color:#303331;
 }
 body{
-	width: 98%;
-	
+	width: 100%;
+	padding: 0 20px;
 	
 }
 nav{
@@ -43,13 +43,28 @@ a:active{
 	color: #303331;
 }
 .mainimg {
-	width: 100%;
+	display:block;
+	width: 88%;
+	margin:0 auto;
+	
 }
 .subimg {
-	width: 31%;
-	padding: 1%;
+	background: #F2EC95;
+	overflow: auto;
+	width:100%;
+	padding-left: 5%;
 }
+.subimg img {
+	display: block;
+	float:left;
+	width: 20%;
+	padding: 2% 5%;
+	
+}
+
 footer {
 	float:left;
-	background:
+	background: lightgray;
+	width: 100%;
+	
 }
