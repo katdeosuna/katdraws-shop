@@ -1,3 +1,28 @@
 @charset "UTF-8";
 /* CSS Document */
 
+* {
+	font-family: 'Raleway', sans-serif;
+}
+body{
+	width: 90%;
+	background:azure;
+}
+nav{
+	background: #DCEDB9;
+	height: 5em;
+	
+}
+ul { 
+	list-style-type: none;
+	display: block;
+}
+li {
+	float: left;
+	display: inline-block;
+	padding: 30px 30px;
+	
+}
+h1 {
+	font-weight: 600;
+}
