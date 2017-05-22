@@ -12,8 +12,7 @@ body{
 }
 nav{
 	
-	height: 5em;
-	
+	height: 5em;	
 	
 }
 ul { 
@@ -33,6 +32,7 @@ a:link {
 	text-decoration: none;
 	
 }
+/*for nav bar*/
 a:visited {
 	color: #303331;
 }
@@ -48,8 +48,8 @@ a:active{
 	margin:0 auto;
 	
 }
+/*I faked centering the image because nothing else would work*/
 .subimg {
-	background: #F2EC95;
 	overflow: auto;
 	width:100%;
 	padding-left: 5%;
