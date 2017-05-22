@@ -18,7 +18,6 @@ body{
 }
 nav{ /*trying to center nav bar*/
 	height: 35px;
-	background: lightgray;
 	padding: inherit;
 	margin: 0 auto;
 	display: block;
@@ -37,8 +36,9 @@ li {
 }
 h1 {
 	font-weight: 600;
-	align-text: center;
+	text-align: center;
 	margin: 0 auto;
+	padding: 2%; 
 }
 
 /*for nav bar*/
@@ -88,8 +88,9 @@ footer {
 /*about page css*/
 #aboutimg {
 	width: 30%;
-	float: right;
+	float: left;
 	margin: 0 auto;
+	padding: 2% 2% 2% 0;
 }
 
 #abouttxt{
