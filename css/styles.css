@@ -9,32 +9,43 @@ body{
 	width: 100%;
 	padding: 0 20px;
 	margin: 0;
-	
 }
-nav{
-	
-	height: 5em;	
+
+#logo {
+	width: 20%;
+	display: block;
+	margin: 5% auto;
+}
+nav{ /*trying to center nav bar*/
+	height: 35px;
+	background: lightgray;
+	padding: inherit;
+	margin: 0 auto;
+	display: block;
+	width: 90%;
 	
 }
 ul { 
 	list-style-type: none;
 	display: block;
+	margin: 0 auto;
 }
 li {
-	float: right;
-	display: inline-block;
-	padding: 30px 30px;	
+	display: inline;
+	padding: 7px 60px;
+	margin: 0 auto;
 }
 h1 {
 	font-weight: 600;
 	align-text: center;
+	margin: 0 auto;
 }
+
+/*for nav bar*/
 a:link { 
 	color:black;
 	text-decoration: none;
-	
 }
-/*for nav bar*/
 a:visited {
 	color: #303331;
 }
@@ -43,8 +54,8 @@ a:hover {
 }
 a:active{
 	color: #303331;
-	
 }
+
 /*dropdown menue for the shop page*/
 .dropdown {
 	
@@ -72,15 +83,16 @@ footer {
 	float:left;
 	background: lightgray;
 	width: 100%;
+	padding-left: 2%;
 }
 /*about page css*/
-.about {
+#aboutimg {
 	width: 30%;
-	display:block;
+	float: right;
 	margin: 0 auto;
 }
 
-.abouttxt{
+#abouttxt{
 	display: block;
 	width: 50%;
 	margin: 30px auto;
