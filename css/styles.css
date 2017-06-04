@@ -2,38 +2,40 @@
 /* CSS Document */
 
 * {
-	font-family: 'Raleway', sans-serif;
-	color:#303331;
+	font-family: 'Kadwa', serif;
+	color: #303331;
 }
 body{
 	width: 100%;
-	padding: 0 20px;
 	margin: 0;
 	box-sizing: border-box;
 }
-
-#logo {
-	width: 20%;
-	display: block;
-	margin: 5% auto;
-}
-nav{ /*trying to center nav bar*/
-	height: 35px;
-	padding: inherit;
-	margin: 0 auto;
-	display: block;
-	width: 90%;
+nav{ 
+	height: auto;
+	display: inline-block;
+	width: 100%;
 	box-sizing: border-box;
+	word-wrap: break-word;
+	background: #EBB2B3;
+	
 }
+#logo {
+	display: inline-block;
+	height: 100px;
+}
+
 ul { 
 	list-style-type: none;
 	display: block;
 	margin: 0 auto;
+	
 }
 li {
-	display: inline;
-	padding: 7px 60px;
+	display: inline-block;
+	padding-left: 20px;
 	margin: 0 auto;
+	float: right;
+	
 }
 h1 {
 	font-weight: 600;
@@ -64,11 +66,11 @@ a:active{
 .mainimg {
 	display:block;
 	width: 88%;
-	margin:0 auto;
+	
 	box-sizing: border-box;
 	
 }
-/*I faked centering the image because nothing else would work*/
+/*three centered images*/
 .subimg {
 	overflow: auto;
 	margin: 0 auto;
@@ -82,7 +84,7 @@ a:active{
 	margin: 2% 5%;
 	box-sizing: border-box;
 }
-
+/*first and third img have different spacing than the middle*/
 .subimg img:first-of-type {
 	margin-left: 0;
 }
@@ -93,7 +95,7 @@ a:active{
 
 footer {
 	float:left;
-	background: lightgray;
+	background: #DEF2F9;
 	width: 100%;
 	padding-left: 2%;
 	box-sizing: border-box;
