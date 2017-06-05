@@ -10,41 +10,37 @@ body{
 	margin: 0;
 	box-sizing: border-box;
 }
+/*begin nav bar*/
 nav{ 
 	height: auto;
 	display: inline-block;
-	width: 100%;
 	box-sizing: border-box;
 	word-wrap: break-word;
-	background: #EBB2B3;
-	
+	float: right;
+	padding: 13% 5%;
 }
 #logo {
 	display: inline-block;
-	height: 100px;
+	height: 200px;
+	max-width: 200px;
+	margin: auto;
+	padding: 5%;
 }
 
 ul { 
 	list-style-type: none;
 	display: block;
-	margin: 0 auto;
+	
+	
 	
 }
 li {
 	display: inline-block;
 	padding-left: 20px;
 	margin: 0 auto;
-	float: right;
-	
-}
-h1 {
-	font-weight: 600;
-	text-align: center;
-	margin: 0 auto;
-	padding: 2%; 
+	float: right;	
 }
 
-/*for nav bar*/
 a:link { 
 	color:black;
 	text-decoration: none;
@@ -53,23 +49,70 @@ a:visited {
 	color: #303331;
 }
 a:hover {
-	color: dimgrey;
+	color: black;
+	background-color: #DEF2F9;
 }
 a:active{
 	color: #303331;
 }
 
 /*dropdown menue for the shop page*/
+.dropbutton {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
 .dropdown {
-	
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+  	z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #DEF2F9;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbutton {
+    background-color: #DEF2F9;
+}
+/*end nav bar*/
+
+h1 {
+	font-weight: 600;
+	text-align: center;
+	margin: 0 auto;
+	padding: 2%; 
 }
 .mainimg {
-	display:block;
+	margin: 0 6%;
+	overflow: auto;
 	width: 88%;
-	
 	box-sizing: border-box;
+	display: block;
+	float: left;
+	
 	
 }
+
 /*three centered images*/
 .subimg {
 	overflow: auto;

@@ -9,19 +9,23 @@
 </head>
 	
 <body>
+	<img src="images/deosuna-crafts-logo.gif" alt="deosuna arts and crafts logo" id="logo"/>
 	<nav>
   		<div>   		
-  			<img src="images/deosuna-crafts-logo.gif" alt="deosuna arts and crafts logo" id="logo"/>
+  			
 		</div>
-   		<div>
+   		<div class="dropdown">
+   		
   		<ul>
 			<li><a href="#shop">Contact</a></li>
 			<li><a href="about.html">About</a></li>
-			<li><a href="#shop">Shop</a>
-				<ul>
-					<li a href="#">Paintings</li>
-					<li a href="#">Embroidery</li>
-				</ul>
+			<!--dropdown in nav for shop pages-->
+			<li class="dropdown">
+				<button class="dropbutton">Shop</button>
+				<div class="dropdown-content">
+					<a href="#">Drawing </a>
+					<a href="#">Embroidery</a>
+				</div>
 			</li>
 			<li><a href="index.html">Home</a></li>
 		</ul>
