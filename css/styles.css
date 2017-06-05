@@ -142,6 +142,15 @@ footer {
 	width: 100%;
 	padding-left: 2%;
 	box-sizing: border-box;
+	position: relative; 
+}
+/*shop: paintings page*/
+.grid {
+	display: inline-block;
+	margin: 0 auto;
+}
+.grid img {
+	width: 26.66%;
 }
 /*about page css*/
 #aboutimg {
