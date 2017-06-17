@@ -14,7 +14,9 @@ body{
 h1 {
 	font-size: 120%;
 	font-weight:500;
-	
+}
+p {
+line-height: .5em;
 }
 /*begin nav bar*/
 ul {
@@ -127,15 +129,19 @@ figure {
 /*about page css*/
 #aboutimg {
 	width: 30%;
-	float: left;
+	float: center;
 	margin: 0 auto;
 	padding: 2% 2% 2% 0;
+	align-content: left;
 }
 
 #abouttxt{
 	display: block;
-	width: 50%;
+	width: 30%;
 	margin: 30px auto;
+	line-height: 2em;
+	text-align: left;
+	vertical-align: text-top;
 }
 /*start contact page form*/
 
@@ -148,8 +154,8 @@ input {
 textarea {
 	margin: 2%;
 	vertical-align: text-top;
-	width: 58.8%;
 	align-content: center;
+	width: 275px;
 }
 
 
