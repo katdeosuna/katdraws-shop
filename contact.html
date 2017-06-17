@@ -1,46 +1,52 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<title>Contact</title>
+	<link href="https://fonts.googleapis.com/css?family=Kadwa:400,700" rel="stylesheet">
+	<script src="https://use.fontawesome.com/fbb68233eb.js"></script>
+	<title>deosuna arts + crafts</title>
 </head>
-
+	
 <body>
-	<p>Would you like to</p> 
-	
-	
+
 	<nav>
-	<!--nav bar is float: right, which is why these are backwards-->
-		<ul>
+		<ul id="drop-nav">
 			<li><a href="index.html">Home</a></li>
-			
-			<li><a href="shop.html">Shop</a></li>
-			
-			<li><a href="about.html">About</a></li>
-			
+			<li><a href="#">Shop</a></li>
+				<ul>
+					<li><a href="shop_paintings.html"
+					>Paintings</a></li>
+					
+					<li><a href="#">Embroidery</a></li>
+				</ul>
 			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">About</a></li>
+			<!--dropdown in nav for shop pages-->
+			
+			
 		</ul>
 	</nav>
 	
-	<h1>Contact Me</h1>
-	<img src="mountain and skeleton ebroidery scene.jpg" alt="mountain embroidery and skeleton embroidery scene"/>
-	<p>Check out my Instagram for updates and works in progress.</p>
-	<p>You can reach me by email at  katherinedeosuna@gmail.com.</p>
+	<img src="images/deosuna-crafts-logo.gif" alt="deosuna arts and crafts logo" id="logo"/>
+	
+	<h1>contact + commissions</h1>
 	
 	<form>
-		<!--create form for people to submit name, email, and comment-->
+		<p>name<input type="text" name="name" size="30"/></p>
+		<p>email<input type="text" name="email" size="30"/></p>
+		<p>message <textarea name="message" col="30" rows="5" size="30"> just say hello!</textarea></p>
+			
+		<p>i am not a robot <input type="radio" name="robot" value="no"/></p>
 	</form>
+	<p> i look forward to hearing from you!</p>
 </body>
 
 <footer>
-	<!--I need to figure out how to make the font awesome icons show up-->
-	<i class="fa fa-instagram" aria-hidden="true"></i>
-		
-	<a href="https://www.instagram.com/katdrawsca/?hl=en" target="_blank">Instagram</a>
-	<a href="https://www.linkedin.com/in/katherine-deosuna" target="_blank">LinkedIn</a>
-		
-	<p>&copy; 2017 Katherine DeOsuna </p>
+<i>
+			<a href="https://www.instagram.com/katdrawsca/?hl=en" class="fa fa-instagram fa-2x" aria-hidden="true" target="_blank"> </a>
+		</i>
+		<i>
+			<a href="https://www.linkedin.com/in/katherine-deosuna" class="fa fa-linkedin-square fa-2x" aria-hidden="true" target="_blank"> </a></i>	
+		<p id="smalltext">&copy; website + images by Katherine DeOsuna 2017 </p>
 </footer>
 </html>

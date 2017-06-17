@@ -11,7 +11,11 @@ body{
 	box-sizing: border-box;
 	text-align: center;
 }
-
+h1 {
+	font-size: 120%;
+	font-weight:500;
+	
+}
 /*begin nav bar*/
 ul {
 	list-style: none;
@@ -85,7 +89,7 @@ h1 {
 .subimg img:last-of-type {
 	margin-right: 0;
 }
-
+/*begin footer*/
 footer {
 	float:left;
 	background: #DEF2F9;
@@ -101,13 +105,24 @@ a:link{
 i{
 	padding: 3%;
 }
-/*shop: paintings page*/
-.grid {
-	display: inline-block;
-	margin: 0 auto;
+#smalltext{
+	font-size: 60%
 }
-.grid img {
+/*end footer*/
+
+/*shop: paintings page*/
+table {
+	border-collapse: collapse;
+}
+figure {
+	display: inline-block;
+	float: left;
+	margin:0 auto;
 	width: 26.66%;
+	padding: 7% 3.3%;
+}
+.shopimg {
+	width: 100%;	 
 }
 /*about page css*/
 #aboutimg {
@@ -122,3 +137,19 @@ i{
 	width: 50%;
 	margin: 30px auto;
 }
+/*start contact page form*/
+
+form {
+	padding:2%;
+}
+input {
+	margin: 2%;
+}
+textarea {
+	margin: 2%;
+	vertical-align: text-top;
+	width: 58.8%;
+	align-content: center;
+}
+
+
