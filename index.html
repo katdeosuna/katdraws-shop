@@ -3,38 +3,36 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Kadwa:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://use.fontawesome.com/fbb68233eb.js"></script>
 	<title>deosuna arts + crafts</title>
 </head>
 	
 <body>
-	<img src="images/deosuna-crafts-logo.gif" alt="deosuna arts and crafts logo" id="logo"/>
-	<nav class="dropdown">
-  		
 
-   		
-  		<ul>
-			<li><a href="#shop">Contact</a></li>
+	<nav>
+		<ul id="drop-nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">Shop</a></li>
+				<ul>
+					<li><a href="shop_paintings.html"
+					>Paintings</a></li>
+					
+					<li><a href="#">Embroidery</a></li>
+				</ul>
+			<li><a href="contact.html">Contact</a></li>
 			<li><a href="about.html">About</a></li>
 			<!--dropdown in nav for shop pages-->
-			<li class="dropdown">
-				<button class="dropbutton">Shop</button>
-				<div class="dropdown-content">
-					<a href="shop_paintings
-					">Paintings</a>
-					<a href="#">Embroidery</a>
-				</div>
-			</li>
-			<li><a href="index.html">Home</a></li>
+			
+			
 		</ul>
-		
-		
 	</nav>
 	
+	<img src="images/deosuna-crafts-logo.gif" alt="deosuna arts and crafts logo" id="logo"/>
 	
 	
-	<img class="mainimg" src="images/pinkflowers.jpg" alt="pink flowers watercolor on black background"/>
+	<div>
+	<img class="mainimg" src="mountain and skeleton ebroidery horizontal.jpg" alt="mountain and skeleton embroidery"/>
+	</div>
 	<!--three aligned images that are centered-->
 	<div class="subimg">
 		<img src="images/purple-succulent.jpg" alt=" purple succulent watercolor painting"/>
@@ -44,9 +42,13 @@
 </body>
 	
 <footer>
-		<i class="fa fa-instagram" aria-hidden="true"></i>
-		<a href="https://www.instagram.com/katdrawsca/?hl=en" target="_blank">Instagram</a>
-		<a href="https://www.linkedin.com/in/katherine-deosuna" target="_blank">LinkedIn</a>
+	<span class="icons">
+		<i>
+			<a href="https://www.instagram.com/katdrawsca/?hl=en" class="fa fa-instagram fa-2x" aria-hidden="true" target="_blank"> </a>
+		</i>
+		<i>
+			<a href="https://www.linkedin.com/in/katherine-deosuna" class="fa fa-linkedin-square fa-2x" aria-hidden="true" target="_blank"> </a></i>
+	</span>	
 		<p>&copy; 2017 Katherine DeOsuna </p>
 </footer>
 </html>
